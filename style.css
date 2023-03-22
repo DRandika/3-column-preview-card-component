@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: hsl(0, 0%, 95%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.component{
+    margin: 0rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width:20rem
+
+}
+
+.component img{
+ width: 20%;
+ margin: 2rem;
+ 
+}
+.component#sedans{
+    background-color:hsl(31, 77%, 52%);
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+}
+.component#suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.component#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.component h1{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 95%);
+    
+    font-family: 'Big Shoulders Display', cursive;
+}
+.component p{
+    margin-left: 2rem;
+    margin-right: 5rem;
+    line-height: 1.5rem;
+    color:hsl(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button{
+
+  margin: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 150px;
+  border-radius: 25px;
+  color: hsl(0, 0%, 95%);
+  border: none;
+  cursor: pointer;
+
+}
+.button#btn1 p{
+    width:80px;
+    color: hsl(31, 77%, 52%);
+}
+.button#btn2 p{
+    width:80px;
+    color: hsl(184, 100%, 22%);
+}
+.button#btn3 p{
+    width:80px;
+    color:hsl(179, 100%, 13%)
+}
+@media screen and (min-width:678px){
+
+    body{
+        color: hsl(0, 0%, 95%);
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+  
+    }
+   
+    .component{
+        
+        display: flex;
+        flex-direction: column;
+        width:20rem;
+    
+    }
+
+    .component img{
+        height: 10%;
+        margin: 2rem;
+        
+       }
+
+       .component#sedans{
+        background-color:hsl(31, 77%, 52%);
+        border-bottom-left-radius: 18px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 0px;
+    }
+    .component#suvs{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .component#luxury{
+        background-color: hsl(179, 100%, 13%);
+        border-bottom-right-radius: 18px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .component h1{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        color: hsl(0, 0%, 95%);
+        
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    .component p{
+        margin-left: 2rem;
+        margin-right: 5rem;
+        line-height: 1.5rem;
+        color:hsl(0, 0%, 100%, 0.75) ;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    button{
+    
+      margin: 2rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      width: 150px;
+      border-radius: 25px;
+      color: hsl(0, 0%, 95%);
+      border: none;
+      cursor: pointer;
+    
+    }
+    .button#btn1 p{
+        width:80px;
+        color: hsl(31, 77%, 52%);
+    }
+    .button#btn2 p{
+        width:80px;
+        color: hsl(184, 100%, 22%);
+    }
+    .button#btn3 p{
+        width:80px;
+        color:hsl(179, 100%, 13%)
+    }
+
+}
