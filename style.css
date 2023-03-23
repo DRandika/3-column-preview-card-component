@@ -82,14 +82,18 @@ button{
 
     body{
         color: hsl(0, 0%, 95%);
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
     }
     .container{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items:normal;
-        margin-top: 8%;
+       
     }
    
     .component{
@@ -147,11 +151,13 @@ button{
        color: hsl(0, 0%, 95%);
        border: none;
        cursor: pointer;
+ 
     
     }
     .button#btn1 p{
         width:80px;
         color: hsl(31, 77%, 52%);
+    
     }
     .button#btn2 p{
         width:80px;
@@ -186,3 +192,12 @@ button#btn3:hover{
 .button#btn3 p:hover{
     color: hsl(0, 0%, 95%);
 }
+
+.button#btn1 {
+    margin-top: 3.5rem;
+}
+.button#btn2 {
+    margin-top: 3.5rem;
+}
+
+
